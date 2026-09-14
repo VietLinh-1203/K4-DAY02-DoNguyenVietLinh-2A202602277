@@ -46,28 +46,28 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 
 ### Tình huống A — xe buýt hay xe van?
 
-- Ảnh và mã vật thể: CHƯA ĐIỀN
-- Dấu hiệu nhìn thấy: CHƯA ĐIỀN
-- Quy tắc áp dụng: CHƯA ĐIỀN
-- Quyết định: CHƯA ĐIỀN
-- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? CHƯA ĐIỀN
+- Ảnh và mã vật thể: ảnh drive_038.jpg và mã BUS 104
+- Dấu hiệu nhìn thấy: thân xe khách dài, nhiều cửa sổ hoặc hàng ghế
+- Quy tắc áp dụng: gán label "bus" cho xe dạng này, không gán label "van"
+- Quyết định: Giữ label "bus" cho vật thể 104
+- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? Phóng to vùng xe để kiểm tra số lượng cửa sổ, chiều dài thân xe và đặc điểm khoang hành khách, so sánh với các thuộc tính của xe van để chốt
 
 ### Tình huống B — xe tải hay xe van/ô tô con?
 
-- Ảnh và mã vật thể: CHƯA ĐIỀN
-- Dấu hiệu nhìn thấy: CHƯA ĐIỀN
-- Quy tắc áp dụng: CHƯA ĐIỀN
-- Quyết định: CHƯA ĐIỀN
-- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? CHƯA ĐIỀN
+- Ảnh và mã vật thể: ảnh drive_038.jpg và mã TRUCK 72
+- Dấu hiệu nhìn thấy: xe có thiết bị công vụ rõ ràng, không kín một khối như xe van/ô tô con
+- Quy tắc áp dụng: gán label "truck" cho xe dạng này, không gán label "van"/"car"
+- Quyết định: Giữ label "truck" cho vật thể 72
+- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? Phóng to và kiểm tra kĩ hình dạng hay cấu trúc xe, nếu có những đặc điểm mô tả phù hợp thì quyết định chọn loại xe
 
 ### Tình huống C — bị che, bị mép ảnh cắt hay không đủ bằng chứng?
 
-- Ảnh và mã vật thể: CHƯA ĐIỀN
-- Dấu hiệu nhìn thấy khi phóng 100%: CHƯA ĐIỀN
-- Giá trị `visibility`: CHƯA ĐIỀN
-- Giá trị `boundary`: CHƯA ĐIỀN
-- Trạng thái `review_state`: CHƯA ĐIỀN
-- Lý do: CHƯA ĐIỀN
+- Ảnh và mã vật thể: ảnh drive_008.jpg và mã VAN 17
+- Dấu hiệu nhìn thấy khi phóng 100%: Chỉ nhìn thấy 1 góc đuôi xe, nếu nhìn theo góc nhìn trong ảnh thì là hình hộp, bị mép ảnh cắt
+- Giá trị `visibility`: occluded
+- Giá trị `boundary`: truncated
+- Trạng thái `review_state`: need_review
+- Lý do: trong ảnh vật thể chỉ hiện 1 góc đuôi xe, có dấu hiệu đặc điểm giống với miêu tả của xe van nhưng chưa thể xác thực rõ ràng, cần phải review lại
 
 ## 6. Xác nhận tự kiểm tra
 
