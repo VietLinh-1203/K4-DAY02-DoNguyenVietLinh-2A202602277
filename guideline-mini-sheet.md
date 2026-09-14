@@ -1,9 +1,9 @@
 # Phiếu quy tắc gán nhãn — Ngày 2
 
-**Họ và tên:** CHƯA ĐIỀN<br>
-**MSSV:** CHƯA ĐIỀN<br>
-**Hình thức:** CHƯA ĐIỀN — cá nhân hoặc theo cặp<br>
-**Mã cặp:** CHƯA ĐIỀN — ghi `SOLO` nếu làm cá nhân
+**Họ và tên:** Đỗ Nguyễn Việt Linh<br>
+**MSSV:** 2A202602277<br>
+**Hình thức:** cá nhân — cá nhân hoặc theo cặp<br>
+**Mã cặp:** SOLO — ghi `SOLO` nếu làm cá nhân
 
 ## 1. Phạm vi
 
