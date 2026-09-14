@@ -66,17 +66,17 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 - Dấu hiệu nhìn thấy khi phóng 100%: Chỉ nhìn thấy 1 góc đuôi xe, nếu nhìn theo góc nhìn trong ảnh thì là hình hộp, bị mép ảnh cắt
 - Giá trị `visibility`: occluded
 - Giá trị `boundary`: truncated
-- Trạng thái `review_state`: need_review
-- Lý do: trong ảnh vật thể chỉ hiện 1 góc đuôi xe, có dấu hiệu đặc điểm giống với miêu tả của xe van nhưng chưa thể xác thực rõ ràng, cần phải review lại
+- Trạng thái `review_state`: confident
+- Lý do: trong ảnh vật thể chỉ hiện 1 góc đuôi xe dạng hình hộp, có dấu hiệu đặc điểm giống với miêu tả của xe van
 
 ## 6. Xác nhận tự kiểm tra
 
-- [ ] Đã rà đủ bốn ảnh.
-- [ ] Đã kiểm vật thể thiếu và trùng.
-- [ ] Đã kiểm lớp và hình học từng hộp.
-- [ ] Mỗi hộp có đủ ba thuộc tính.
-- [ ] Đã xử lý mọi hộp `needs_review`.
-- [ ] Đã hoàn thành ba tình huống trước khi xem nguồn đối chiếu.
+- [x] Đã rà đủ bốn ảnh.
+- [x] Đã kiểm vật thể thiếu và trùng.
+- [x] Đã kiểm lớp và hình học từng hộp.
+- [x] Mỗi hộp có đủ ba thuộc tính.
+- [x] Đã xử lý mọi hộp `needs_review`.
+- [x] Đã hoàn thành ba tình huống trước khi xem nguồn đối chiếu.
 - [ ] Nếu làm theo cặp, hai người đã xuất bài độc lập trước khi trao đổi.
-- [ ] Nếu làm cá nhân, bài riêng đã được kiểm trước khi nhận bộ tham chiếu.
-- [ ] Số vật thể thực tế: CHƯA ĐIỀN — 40–60 là mục tiêu khối lượng, không phải điểm cắt.
+- [x] Nếu làm cá nhân, bài riêng đã được kiểm trước khi nhận bộ tham chiếu.
+- [x] Số vật thể thực tế: 125 — 40–60 là mục tiêu khối lượng, không phải điểm cắt.
